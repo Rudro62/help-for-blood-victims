@@ -70,8 +70,24 @@ input {
 
 .donate-plan {
     padding-top: 70px;
+    padding-left: 100px;
 }
 
 .flex-donate {
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.plan-box {
+    width: 30%;
+    height: 300px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.nothing {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
